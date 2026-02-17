@@ -14,37 +14,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: {
-                            DEFAULT: '#14b8a6', // Teal-500
-                            hover: '#0d9488',   // Teal-600
-                            light: 'rgba(20, 184, 166, 0.1)'
-                        },
-                        dark: {
-                            bg: '#0b1121',
-                            surface: '#151e32',
-                            border: '#334155'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Tailwind CSS (Local Build) -->
+    <link href="dist/output.css" rel="stylesheet">
 
     <!-- AOS Animation Library css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
 
     <!-- Material Symbols -->
     <link rel="stylesheet"
@@ -112,14 +86,14 @@
 
             <div class="container mx-auto px-6 relative z-10 text-center max-w-4xl" data-aos="fade-up"
                 data-aos-duration="1000">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                    Menghadirkan Solusi Digital yang Seimbang antara <span class="text-primary">Kebutuhan
-                        Pengguna</span> dan <span class="text-primary">Target Bisnis</span>.
+                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
+                    Menghadirkan Solusi Digital yang <span class="text-gradient">Seimbang</span> antara Kebutuhan
+                    Pengguna dan Target Bisnis.
                 </h1>
                 <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-                    Halo, saya <strong class="text-white">Muhammad Rizal Firmanda</strong>, seorang UI/UX Designer
-                    dengan pengalaman lebih dari 4 tahun di industri Startup SaaS. Saya spesialis dalam merancang
-                    ekosistem dashboard yang kompleks dan landing page konversif.
+                    Halo! Saya <span class="text-white font-medium">Muhammad Rizal Firmanda</span>, seorang UI/UX
+                    Designer yang spesialis dalam merancang Landing Page konversi tinggi dan Dashboard manajemen data
+                    yang kompleks.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="https://mrizalfirmanda.medium.com/" target="_blank"
@@ -258,7 +232,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[minmax(300px,auto)]">
                     <!-- Card A: UX Research -->
-                    <div class="group bg-dark-surface p-8 rounded-3xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl relative overflow-hidden md:col-span-2 lg:col-span-1"
+                    <div class="group bg-dark-surface p-8 rounded-3xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl relative overflow-hidden md:col-span-1 lg:col-span-1"
                         data-aos="fade-up" data-aos-delay="100">
                         <div
                             class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -287,7 +261,7 @@
                     </div>
 
                     <!-- Card B: UI Design -->
-                    <div class="group bg-dark-surface p-8 rounded-3xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl relative overflow-hidden md:col-span-2 lg:col-span-1"
+                    <div class="group bg-dark-surface p-8 rounded-3xl border border-gray-800 hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl relative overflow-hidden md:col-span-1 lg:col-span-1"
                         data-aos="fade-up" data-aos-delay="200">
                         <div
                             class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
